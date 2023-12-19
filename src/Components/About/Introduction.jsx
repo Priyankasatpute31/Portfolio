@@ -48,7 +48,7 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Entrepreneure{" "}
+                Freelancer{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
