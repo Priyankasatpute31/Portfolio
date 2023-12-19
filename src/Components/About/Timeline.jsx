@@ -32,7 +32,7 @@ export const Timeline = () => {
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Dec 2021 - Feb 2022"}
+            date={"Aug 2023 - Present"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -54,21 +54,21 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide Cordinator
+              freelancer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              freelancer.com
             </h4>
             <p data-aos="fade-right">
-              Managing Team of 15 Student Guides directly and 100-150 students
-              indirectly with help of student guides.
+            developed client's e-commerce platform using React.js library. 
+            created Responsive application using Bootstrap, Css.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Nov 2021 - Dec 2021"}
+            date={"Jun 2022 - July 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -90,23 +90,22 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student Guide
+              Software Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School
+              Excellex technologies (On site at National Stock Exchange)
             </h4>
             <p data-aos="fade-right">
-              Mentoring and clearing student's doubts via one to one and one to
-              all video calls, Motivating students to do hard work, provides
-              emotional support to them & Helping students to start their career
-              in Tech.
+              Joined as a Fullstack Developer to develope and maintaine full-stack web apps and implementing front-end
+              and back-end features using Spring Boot and Reactjs. worked for National Stock Exchange Client Government project. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            date={"Oct 2021 - Present"}
+            className="vertical-timeline-element--work"
+            date={"Aug 2021 - Jun 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -128,55 +127,17 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student
+              Post graduation Diploma
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Masai School (Remote)
+              Advanced Computing Training institute, Mumbai
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
-              and DSA. Also get to learn lot more other skills as well.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Feb 2020 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              border: "3px solid var(--clr-primary)",
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`,
-            }}
-            contentArrowStyle={{
-              borderRight: "16px solid  var(--clr-primary)",
-            }}
-            iconStyle={{
-              border: ` 3px solid var(--clr-primary)`,
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`,
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Co-founder
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Agricultural Training institute, Ahmednagar
-            </h4>
-            <p data-aos="fade-right">
-              Started in Feb 2020 with 3 other co-founders and provided training
-              to 20,000+ farmers and 3000+ students till now. Also honored by
-              Agri-Education Award 2021 By Agriculture Today Group.
+              Started in Aug 2021 provided training in SpringBoot, React.Js, JavaScript.
+               Also provided industrial project to get Professional Experience by CDAC Kharghar.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -203,22 +164,22 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Founder & Director (Part Time)
+              Internship (Part Time)
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Sitocrats Pvt. Ltd., Parbhani (MH)
+              InoWorx technologies Pvt. Ltd., Bangalore (MH)
             </h4>
             <p data-aos="fade-right">
-              Started in Dec 2019 and delivered 15+ Projects on wordpress,
-              Angular, Nodejs and Flutter till Aug 2021.
+              Started in Aug 2019 and delivered 2+ Projects on Java
+              ,J2EE and JSP till Aug 2021.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Jul 2017 - Aug 2021"}
+            date={"Apr 2014 - May 2019"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -240,23 +201,23 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Student [BTech. (Agril. Engineering)]
+              Student [BE. (Computer Science Engineering)]
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              CAET, VNMKV University, Parbhani (MH)
+             Savitribai Phule University, Pune (MH)
             </h4>
             <p data-aos="fade-right">
-              Studied Agricultural Engineering which consists of all the
-              subjects accross all engineering and agricultural streams. Passed
-              with 8.32 CGPA
+              Studied Computer Science Engineering which consists of all the
+              subjects accross all engineering and Computer Science streams. Passed
+              with 6.51 CGPA
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2017"}
+            date={"March 2014"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -284,10 +245,11 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Janata Jr. College, Ruichhattishi, Ahmednagar
+              
+              TC College, Baramati, Pune
             </h4>
             <p data-aos="fade-right">
-              Studied 12th Science and Passed with 85.69 Percentage.
+              Studied 12th Science.
             </p>
           </VerticalTimelineElement>
 

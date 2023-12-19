@@ -1,22 +1,22 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact, FaHardHat } from "react-icons/fa";
+import { FaReact} from "react-icons/fa";
+import { TbPoint } from "react-icons/tb";
+import eIPO from "../../assets/e-IPO.png";
+import NDM from "../../assets/NDM.jpeg";
+import JobPortal from "../../assets/JobPortal.png";
+import { VscGithub } from "react-icons/vsc";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { BsBootstrap} from "react-icons/bs";
+import { LiaJava } from "react-icons/lia";
 import {
-  SiBlockchaindotcom,
   SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
   SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
+  SiRedux,
+  SiPostman,
+  SiMysql
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 export const Projects = () => {
   return (
@@ -28,45 +28,36 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/V9C8Jm9/rockstar-games.png"
-                    alt="Rockstar Games"
-                  />
+                <img src={eIPO} alt="Images" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Rockstar Games</h2>
+                <h3>E-IPO</h3>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                <ul>
+    <li><TbPoint />E-Initial Public Offering" its a Bidding Platform </li>
+    
+    <li><TbPoint />Assisting senior developers into Develope and maintaine full-stack web apps and implementing front-end
+and back-end features using Spring Boot and Reactjs.</li>
+    
+    <li><TbPoint />Developed RESTful APIs for user authentication, course creation, and data retrieval. Implemented Spring
+Security for role-based access control and JWT-based authentication to ensure data security.
+</li>
+    <li><TbPoint />Participating in daily stand-up meetings to report progress, discuss challenges, and plan tasks.
+</li>
+    <li><TbPoint />Learning and applying industry-standard development tools and practices, such as Git version control
+and responsive design principles.</li> 
+<li><TbPoint />Gaining hands-on experience with debugging and troubleshooting issues in the codebase.</li>
+</ul>
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <FaReact />
-                  <SiMaterialui />
-                </div>
-                <div>
-                  <a
-                    href="https://store-rockstargames.vercel.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/aman-638/store.rockstartgames.com-Frontend-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
+                <LiaJava />
+                <BiLogoSpringBoot />
+                <SiRedux />
+                <FaReact />
+                <SiPostman />
+                <SiMysql />
+                <VscGithub />
                 </div>
               </div>
             </div>
@@ -75,229 +66,80 @@ export const Projects = () => {
             <div className="project">
               <div className="project_videocontainer">
                 <div>
-                  <img
-                    src="https://i.ibb.co/MPzWN49/weather-app.png"
-                    alt="Sk-Weather-App"
-                  />
+                <img src={NDM} alt="Images" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>SK Weather App</h2>
-                <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
-                </p>
+                <h2>NDM</h2>
+                <ul>
+    <li><TbPoint />NEW Debt Market" its a Trading Platform </li>
+    
+    <li><TbPoint />Implemented routing using libraries like React Router to enable navigation between different views within
+a single-page application.</li>
+    
+    <li><TbPoint />Integrated with backend APIs using fetch or Axios to fetch and update data from the server.
+</li>
+    <li><TbPoint />Designed and implemented scalable microservices architecture, improving performance by 50% and
+reducing downtime. 
+</li>
+    <li><TbPoint />code reviewed on Git for both the Java backend and React frontend codebases to maintain code quality
+and identify potential issues early.
+</li> 
+<li><TbPoint />Participated in code reviews,Debugging and Troubleshooting, leading to higher code quality and fewer
+bugs.</li>
+</ul>
                 <div>
+                 <LiaJava />
                   <DiCss3 />
                   <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://sk-weather-app.netlify.app/weather-app.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/Weather-App"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
+                  <SiJavascript />
+                  <BsBootstrap />
                 </div>
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img src="https://i.ibb.co/M2qW7xL/apijs-npm.png" alt="" />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>APIJS Mongo</h2>
-                <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                </div>
-                <div>
-                  <a
-                    href="https://www.npmjs.com/package/apijs-mongo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      View NPM Package
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/API.JS-Mongo"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+       
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://aem.dropbox.com/cms/content/dam/dropbox/www/en-us/branding/dropbox-logo@2x.jpg"
-                    alt=""
-                  />
+              <div>
+                <img src={JobPortal} alt="Images" />
                 </div>
               </div>
               <div className="project_information">
-                <h2>DropBox Clone -Backend</h2>
-                <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                </div>
-                <div>
-                  <a
-                    href="https://drive-system.herokuapp.com/user/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      URL for the API
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/imbickydutta/file-system-backend"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
+                <h2>Online job portal</h2>
+                <ul>
+    <li><TbPoint />nternal recruitment automation product</li>
+    
+    <li><TbPoint />Online job application Portal This project allows companies to register and add different jobs at this
+website. It also allows Job seekers to create a profile to find best matching job and apply for it according
+to skill set required.
+</li>
+<li><TbPoint />Automatic question Generation. Question Generation system can generate question from the given text
+automatically.it is the process of taking text as input and generating questions as output. rules are
+applied to generate many simple and complex type questions such as what who,who,whom,how much
+and how many etc
+</li>
+    <li><TbPoint />According to that result is created and interview scheduling 
+</li>
+    <li><TbPoint />Job posting management, offer letter automation, resource allocation.
+</li> 
+</ul>
+<div> 
+<LiaJava />
+                <BiLogoSpringBoot />
+                <SiRedux />
+                <FaReact />
+                <SiPostman />
+                <SiMysql />
+                <VscGithub />
                 </div>
               </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/934WpdD/uniqlo-clone.png"
-                    alt="Uniqlo-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>Uniqlo Clone</h2>
-                <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  sell their products in online mode through their website. We
-                  cloned their website.
-                </p>
-                <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
-                  <SiHtml5 />
-                  <DiCss3 />
-                </div>
-                <div>
-                  <a
-                    href="https://uniqlo-clone.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="projects_container" data-aos="fade-right">
-            <div className="project">
-              <div className="project_videocontainer">
-                <div>
-                  <img
-                    src="https://i.ibb.co/KVBGkdy/FFD69103-C304-42-E8-BCCD-8836-AAEFEA9-C.jpg"
-                    alt="PulsePlus-Clone"
-                  />
-                </div>
-              </div>
-              <div className="project_information">
-                <h2>PulsePlus Clone</h2>
-                <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
-                </p>
-                <div>
-                  <DiCss3 />
-                  <SiHtml5 />
-                  <IoLogoJavascript />
-                </div>
-                <div>
-                  <a
-                    href="https://pulseplus-clone.netlify.app/landing_page.html"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt onbt">
-                      See this Live
-                    </span>
-                  </a>
-                  <a
-                    href="https://github.com/Shreyasgkhakal100/www.pulseplus.in-Clone"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span type="button" className="btns onbt">
-                      View Code
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </>
   );
 };

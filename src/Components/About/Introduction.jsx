@@ -27,14 +27,21 @@ export const Introduction = () => {
                   {" "}
                   Pune, Maharashtra (India)
                 </span>
-                . I have completed my graduation in BE (Computer Science Engineering)
+                . I am a {" "}
+                <span className="different">
+                  FullStack Developer 
+                </span>
+                , I have 1.1 year of relevant industrial experience in development
+                . I have completed my post graduation diploma in Advanced Computing 
+                from{" "}
+                <span className="different">
+                 CDAC Mumbai
+                </span>
+                . I also completed graduation in BE (Computer Science Engineering)
                 from{" "}
                 <span className="different">
                   Savitribai Phule University, Pune (MH)
                 </span>
-                . Then I joined full stack development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
@@ -47,19 +54,19 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Chess Enthusiast{" "}
+                Team Player{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                YouTuber{" "}
+                Leadership Qualities{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Poet{" "}
+                Lifelong Learner{" "}
               </h4>
             </div>
           </div>

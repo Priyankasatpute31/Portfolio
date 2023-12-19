@@ -1,19 +1,15 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
+import { FaReact, FaAws } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  SiMaterialui,
-  SiExpress,
-  SiRedis,
-  SiTailwindcss,
-  SiNetlify
+  SiPostman,SiJavascript, SiMysql
 } from "react-icons/si";
-import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku, SiMysql} from "react-icons/si";
+import { DiCss3} from "react-icons/di";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap, BsWordpress } from "react-icons/bs";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import  {BsBootstrap} from "react-icons/bs";
 import { LiaJava } from "react-icons/lia";
 
 export const Techstacks = () => {
@@ -39,8 +35,8 @@ export const Techstacks = () => {
             <h5>React</h5>
           </div>
           <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
+          <SiRedux />
+            <h5>Redux</h5>
           </div>
           <div>
           <LiaJava />
@@ -48,8 +44,8 @@ export const Techstacks = () => {
           </div>
 
           <div>
-            <SiExpress />
-            <h5>Express</h5>
+          <BiLogoSpringBoot />
+            <h5>SpringBoot</h5>
           </div>
 
           <div>
@@ -65,8 +61,8 @@ export const Techstacks = () => {
             <h5>Mysql</h5>
           </div>
           <div>
-            <SiHeroku />
-            <h5>Heroku</h5>
+            <SiPostman />
+            <h5>Postman</h5>
           </div>
           <div>
             <VscGithub />

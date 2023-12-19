@@ -2,12 +2,9 @@ import React from "react";
 import "./About.css";
 import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import DescriptionIcon from "@material-ui/icons/Description";
-import PublicIcon from "@material-ui/icons/Public";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -22,9 +19,9 @@ export const About = () => {
         <Type />
         <p className="about__desc" data-aos="fade-right">
           Passionate and creative Full Stack Developer having proficiency in
-          Java Development. Attired with a variety of tools & technologies and keen to
-          learn new one. Worked on wordpress since last 3 years and delivered
-          15+ projects till now.
+          Java and React.js Development. Attired with a variety of tools & technologies and keen to
+          learn new one. Worked on SpringBoot and React.js since last 2.5 years and delivered
+          8+ projects till now.
         </p>
         <div className="about__contact center">
           <a

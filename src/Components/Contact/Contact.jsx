@@ -21,7 +21,7 @@ export const Contact = () => {
             data-aos="fade-right"
           >
             <a
-              href="https://www.linkedin.com/in/shreyas-g-khakal/"
+              href="https://www.linkedin.com/in/priyanka-satpute-30bbb6220/"
               target="_blank"
               rel="noreferrer"
             >
