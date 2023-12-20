@@ -4,7 +4,7 @@ import { Type } from "./Type";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import LinkedIn from "@material-ui/icons/LinkedIn";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
@@ -24,6 +24,15 @@ export const About = () => {
           8+ projects till now.
         </p>
         <div className="about__contact center">
+        <a
+            href="https://www.linkedin.com/in/priyanka-satpute-30bbb6220/"
+            aria-label="twitter"
+            className="link link--icon"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedIn />
+          </a>
           <a
             href="https://github.com/Priyankasatpute31/"
             aria-label="github"
@@ -51,6 +60,7 @@ export const About = () => {
           >
             <PhoneIcon />
           </a>
+        
         </div>
 
         <button
