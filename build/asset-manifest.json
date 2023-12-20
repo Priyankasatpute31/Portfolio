@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55e21e85.css",
+    "main.js": "/static/js/main.6dc426ad.js",
+    "static/media/JobPortal.png": "/static/media/JobPortal.377fb521331836f99ea5.png",
+    "static/media/e-IPO.png": "/static/media/e-IPO.f09ed4af8ae509b94fd6.png",
+    "static/media/Priyanka.png": "/static/media/Priyanka.ba7044ab688c05c141ce.png",
+    "static/media/NDM.jpeg": "/static/media/NDM.0a689131689d288a8017.jpeg",
+    "static/media/P_Logo.png": "/static/media/P_Logo.51ee5d637bb995eb726f.png",
+    "index.html": "/index.html",
+    "main.55e21e85.css.map": "/static/css/main.55e21e85.css.map",
+    "main.6dc426ad.js.map": "/static/js/main.6dc426ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e21e85.css",
+    "static/js/main.6dc426ad.js"
+  ]
+}
