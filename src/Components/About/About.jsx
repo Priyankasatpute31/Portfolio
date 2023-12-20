@@ -51,15 +51,6 @@ export const About = () => {
           >
             <PhoneIcon />
           </a>
-          <a
-            href="https://twitter.com/KhakalShreyas"
-            aria-label="twitter"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <TwitterIcon />
-          </a>
         </div>
 
         <button
